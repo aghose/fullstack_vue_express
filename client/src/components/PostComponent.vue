@@ -15,6 +15,9 @@
 
   <div class="posts-container">
 
+    <!-- Instructions for deleting a post -->
+    <h2>You can double click on a post to delete it</h2>
+
     <div class="post"
       v-for="(post, index) in posts"
       v-bind:item="post"
