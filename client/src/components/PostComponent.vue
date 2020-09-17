@@ -13,10 +13,10 @@
   <hr>
   <p class="error" v-if="error">{{error}}</p>
 
-  <div class="posts-container">
+  <!-- Instructions for deleting a post -->
+  <h3>You can double click on a post to delete it</h3>
 
-    <!-- Instructions for deleting a post -->
-    <h2>You can double click on a post to delete it</h2>
+  <div class="posts-container">
 
     <div class="post"
       v-for="(post, index) in posts"
